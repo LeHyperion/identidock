@@ -12,7 +12,9 @@ identidock:
     - redis
   environment:
     ENV: PROD
-  dnmonster:
-    image: amount/dnmonster:1.0
-  redis:
+
+dnmonster:
+    image: amouat/dnmonster:1.0
+
+redis:
     image: redis:3
